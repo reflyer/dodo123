@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/London"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:gravity="center_horizontal"
+            android:padding="10pt"
+            android:text="伦敦奥运"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/China"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="#ff00ff"
+            android:text="中国加油！！！"
+            android:textSize="8pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    android:background="#848484"
+                    android:padding="2dip"
+                    android:text="国家" />
+
+                <TextView
+                    android:background="#ff0000"
+                    android:padding="2dip"
+                    android:text="金牌" />
+
+                <TextView
+                    android:background="#00ff00"
+                    android:padding="2dip"
+                    android:text="银牌" />
+
+                <TextView
+                    android:background="#0000ff"
+                    android:padding="2dip"
+                    android:text="铜牌" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:background="#848484"
+                    android:padding="2dip"
+                    android:text="中国" />
+
+                <TextView
+                    android:background="#ff0000"
+                    android:padding="2dip"
+                    android:text="*" />
+
+                <TextView
+                    android:background="#00ff00"
+                    android:padding="2dip"
+                    android:text="**" />
+
+                <TextView
+                    android:background="#0000ff"
+                    android:padding="2dip"
+                    android:text="***" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:background="#848484"
+                    android:padding="2dip"
+                    android:text="美国" />
+
+                <TextView
+                    android:background="#ff0000"
+                    android:padding="2dip"
+                    android:text="*" />
+
+                <TextView
+                    android:background="#00ff00"
+                    android:padding="2dip"
+                    android:text="**" />
+
+                <TextView
+                    android:background="#0000ff"
+                    android:padding="2dip"
+                    android:text="***" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>
